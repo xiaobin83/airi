@@ -162,6 +162,23 @@ export default defineConfig<ThemeConfig>({
             ],
           },
           {
+            text: 'Code Wiki',
+            icon: 'lucide:code-2',
+            items: [
+              { text: 'Overview', link: withBase('/en/docs/code-wiki/') },
+              { text: 'Project Overview', link: withBase('/en/docs/code-wiki/project-overview') },
+              { text: 'Tech Stack', link: withBase('/en/docs/code-wiki/tech-stack') },
+              { text: 'Architecture', link: withBase('/en/docs/code-wiki/architecture') },
+              { text: 'Main Modules', link: withBase('/en/docs/code-wiki/modules') },
+              { text: 'Database', link: withBase('/en/docs/code-wiki/database') },
+              { text: 'API Docs', link: withBase('/en/docs/code-wiki/api') },
+              { text: 'Components', link: withBase('/en/docs/code-wiki/components') },
+              { text: 'Dependencies', link: withBase('/en/docs/code-wiki/dependencies') },
+              { text: 'Running', link: withBase('/en/docs/code-wiki/running') },
+              { text: 'Development Guide', link: withBase('/en/docs/code-wiki/guide') },
+            ],
+          },
+          {
             text: 'Contributing',
             icon: 'lucide:users',
             items: [
@@ -307,6 +324,23 @@ export default defineConfig<ThemeConfig>({
             ],
           },
           {
+            text: '代码维基',
+            icon: 'lucide:code-2',
+            items: [
+              { text: '概览', link: withBase('/zh-Hans/docs/code-wiki/') },
+              { text: '项目概述', link: withBase('/zh-Hans/docs/code-wiki/project-overview') },
+              { text: '技术栈', link: withBase('/zh-Hans/docs/code-wiki/tech-stack') },
+              { text: '架构设计', link: withBase('/zh-Hans/docs/code-wiki/architecture') },
+              { text: '主要模块', link: withBase('/zh-Hans/docs/code-wiki/modules') },
+              { text: '数据库模型', link: withBase('/zh-Hans/docs/code-wiki/database') },
+              { text: 'API 接口', link: withBase('/zh-Hans/docs/code-wiki/api') },
+              { text: '关键组件', link: withBase('/zh-Hans/docs/code-wiki/components') },
+              { text: '依赖关系', link: withBase('/zh-Hans/docs/code-wiki/dependencies') },
+              { text: '项目运行', link: withBase('/zh-Hans/docs/code-wiki/running') },
+              { text: '开发指南', link: withBase('/zh-Hans/docs/code-wiki/guide') },
+            ],
+          },
+          {
             text: '贡献指南',
             icon: 'lucide:users',
             items: [
@@ -445,6 +479,23 @@ export default defineConfig<ThemeConfig>({
                   { text: '設定ガイド', link: withBase('/ja/docs/manual/config/') },
                 ],
               },
+            ],
+          },
+          {
+            text: 'コードウィキ',
+            icon: 'lucide:code-2',
+            items: [
+              { text: '概要', link: withBase('/ja/docs/code-wiki/') },
+              { text: 'プロジェクト概要', link: withBase('/ja/docs/code-wiki/project-overview') },
+              { text: '技術スタック', link: withBase('/ja/docs/code-wiki/tech-stack') },
+              { text: 'アーキテクチャ', link: withBase('/ja/docs/code-wiki/architecture') },
+              { text: '主要モジュール', link: withBase('/ja/docs/code-wiki/modules') },
+              { text: 'データベース', link: withBase('/ja/docs/code-wiki/database') },
+              { text: 'API文書', link: withBase('/ja/docs/code-wiki/api') },
+              { text: 'コンポーネント', link: withBase('/ja/docs/code-wiki/components') },
+              { text: '依存関係', link: withBase('/ja/docs/code-wiki/dependencies') },
+              { text: '実行方法', link: withBase('/ja/docs/code-wiki/running') },
+              { text: '開発ガイド', link: withBase('/ja/docs/code-wiki/guide') },
             ],
           },
           {
